@@ -1,6 +1,15 @@
 'use strict';
+var Twitter = require('./configs.js');
 
 module.exports.hello = (event, context, callback) => {
+  Twitter.post('statuses/update', { status: 'Hello world \\#PeaceHack \\#PeaceDay' }, function (error, tweet, response) {
+    if (error) {
+      console.log(error);
+    }
+    console.log(tweet);  
+    console.log(response); 
+  });
+  
   const response = {
     statusCode: 200,
     body: JSON.stringify({
@@ -10,7 +19,4 @@ module.exports.hello = (event, context, callback) => {
   };
 
   callback(null, response);
-
-  // Use this code if you don't use the http event with the LAMBDA-PROXY integration
-  // callback(null, { message: 'Go Serverless v1.0! Your function executed successfully!', event });
 };
