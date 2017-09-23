@@ -1,6 +1,6 @@
 {
-  "name": "hellopeacebot",
-  "version": "1.0.0",
+  "name": "HelloPeaceBot§",
+  "version": "0.1.0",
   "description": "Bot made from #PeaceHack",
   "main": "handler.js",
   "scripts": {
