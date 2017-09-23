@@ -4,3 +4,18 @@
 # HelloPeaceBot
 
 Bot made for #PeaceHack by [@HelloPeaceBot](https://twitter.com/hellopeacebot)
+
+## Dependencies
+
+- Serverless Framework
+- AWS
+
+## Deployment
+
+### Deploy
+
+- `serverless deploy -v `
+
+### Remove
+
+- `serverless remove -v `
