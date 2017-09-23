@@ -1,5 +1,5 @@
 'use strict';
-var Twitter = require('./configs.js');
+var Twitter = require('./configs/configs.js');
 
 module.exports.hello = (event, context, callback) => {
   Twitter.post('statuses/update', { status: 'Hello world \\#PeaceHack \\#PeaceDay' }, function (error, tweet, response) {
