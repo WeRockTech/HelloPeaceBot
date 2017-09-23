@@ -1,0 +1,11 @@
+[
+  {
+    "tweetOn": "2017-9-23T15",
+    "message": "This is a timed tweet"
+  },
+  {
+    "tweetOn": "2017-9-23T16",
+    "message": "This is a timed tweet with an image",
+    "media": "http://www.ikea.com/gb/en/images/products/bondis-wall-clock-black__0096033_pe235389_s5.jpg"
+  }
+]
