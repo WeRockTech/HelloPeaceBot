@@ -9,7 +9,7 @@ module.exports.hello = (event, context, callback) => {
     "access_token_secret": process.env.TOKEN_SECRET
   });
 
-  Twitter.post('statuses/update', { status: 'Hello world \\#PeaceHack \\#PeaceDay' }, function (error, tweet, response) {
+  Twitter.post('statuses/update', { status: 'Hello world \#PeaceHack \#PeaceDay' }, function (error, tweet, response) {
     if (error) {
       console.log(error);
     }
