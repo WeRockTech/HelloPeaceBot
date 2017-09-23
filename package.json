@@ -1,0 +1,22 @@
+{
+  "name": "hellopeacebot",
+  "version": "1.0.0",
+  "description": "Bot made from #PeaceHack",
+  "main": "handler.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WeRockTech/HelloPeaceBot.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/WeRockTech/HelloPeaceBot/issues"
+  },
+  "homepage": "https://github.com/WeRockTech/HelloPeaceBot#readme",
+  "dependencies": {
+    "twitter": "^1.7.1"
+  }
+}
