@@ -1,5 +1,5 @@
 {
-  "name": "HelloPeaceBot§",
+  "name": "hellopeacebot",
   "version": "0.1.0",
   "description": "Bot made from #PeaceHack",
   "main": "handler.js",
