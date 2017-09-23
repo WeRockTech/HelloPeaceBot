@@ -9,17 +9,13 @@ module.exports.hello = (event, context, callback) => {
     if (error) {
       console.log(error);
     }
-    console.log(tweet);
-    console.log(response);
+
+    callback(null, {
+      statusCode: 200,
+      body: JSON.stringify({
+        tweet: tweet,
+        response: response
+      }),
+    });
   });
-
-  const response = {
-    statusCode: 200,
-    body: JSON.stringify({
-      message: 'Go Serverless v1.0! Your function executed successfully!',
-      input: event,
-    }),
-  };
-
-  callback(null, response);
 };
