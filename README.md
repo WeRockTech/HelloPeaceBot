@@ -19,3 +19,7 @@ Bot made for #PeaceHack by [@HelloPeaceBot](https://twitter.com/hellopeacebot)
 ### Remove
 
 - `serverless remove -v `
+
+## Run locally
+
+- `serverless invoke local --function hello`
