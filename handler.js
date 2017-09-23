@@ -2,9 +2,9 @@
 var TwitterPackage = require('twitter');
 var config = require('./configs/config');
 
-var Twitter = new TwitterPackage(config);
-
 module.exports.hello = (event, context, callback) => {
+  const Twitter = new TwitterPackage(config);
+
   Twitter.post('statuses/update', { status: 'Hello world \\#PeaceHack \\#PeaceDay' }, function (error, tweet, response) {
     if (error) {
       console.log(error);
