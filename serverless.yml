@@ -59,7 +59,7 @@ functions:
   tweet:
     handler: tweet.tweet
     events:
-      - schedule: rate(1 hours)
+      - schedule: rate(60 minutes)
 
 #    The following are a few example events you can configure
 #    NOTE: Please make sure to change your handler code to work with those events
