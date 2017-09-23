@@ -56,8 +56,8 @@ provider:
 #    - exclude-me-dir/**
 
 functions:
-  hello:
-    handler: handler.hello
+  tweet:
+    handler: tweet.tweet
   reply:
     handler: reply.reply
 
