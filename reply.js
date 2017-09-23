@@ -17,7 +17,7 @@ module.exports.reply = (event, context, callback) => {
     const name = event.source.name;
     const follower = event.source.screen_name;
 
-    tweetNow('Hey @' + follower + '. Thanks for the follow \n\#PeaceDay \#PeaceHack');
+    tweetNow('Hey @' + follower + ' Who do you think inspires peace? \n\#PeaceDay \#PeaceHack');
   }
 
   function tweetNow(tweetTxt) {
