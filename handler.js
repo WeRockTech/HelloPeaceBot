@@ -1,6 +1,6 @@
 'use strict';
-var TwitterPackage = require('twitter');
-var config = require('./configs/config');
+const TwitterPackage = require('twitter');
+const config = require('./configs/config');
 
 module.exports.hello = (event, context, callback) => {
   const Twitter = new TwitterPackage(config);
@@ -9,10 +9,10 @@ module.exports.hello = (event, context, callback) => {
     if (error) {
       console.log(error);
     }
-    console.log(tweet);  
-    console.log(response); 
+    console.log(tweet);
+    console.log(response);
   });
-  
+
   const response = {
     statusCode: 200,
     body: JSON.stringify({
