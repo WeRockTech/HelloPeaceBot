@@ -2,4 +2,5 @@
 [![Floobits Status](https://floobits.com/eddiejaoude/HelloPeaceBot.svg)](https://floobits.com/eddiejaoude/HelloPeaceBot/redirect)
 
 # HelloPeaceBot
-Bot made from #PeaceHack
+
+Bot made for #PeaceHack by [@HelloPeaceBot](https://twitter.com/hellopeacebot)
