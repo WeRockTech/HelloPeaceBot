@@ -12,7 +12,7 @@ before_install:
   - sudo pip install awscli
 
 install:
-  - make install
+  - npm install
 
 script:
   - echo 'No tests, this is a PROTOTYPE only'
