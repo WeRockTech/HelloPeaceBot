@@ -22,4 +22,4 @@ Bot made for #PeaceHack by [@HelloPeaceBot](https://twitter.com/hellopeacebot)
 
 ## Run locally
 
-- `serverless invoke local --function hello`
+- `serverless invoke local --function {INSERT_FUNCTION_NAME}`
